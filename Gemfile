@@ -14,7 +14,7 @@ if RUBY_PLATFORM =~ /mingw/
   gem 'therubyracer', :path => '../therubyracer-0.11.0beta1-x86-mingw32'
 else
   gem 'libv8'
-  gem 'therubyracer'
+  gem 'therubyracer', '0.11.0'
 end
 
 gem 'rb-readline'
