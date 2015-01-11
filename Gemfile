@@ -11,7 +11,7 @@ gem 'sqlite3'
 gem 'execjs'
 
 if RUBY_PLATFORM =~ /mingw/
-  gem 'therubyracer', :path => '../therubyracer-0.11.0beta1-x86-mingw32'
+  gem 'therubyracer', :path => '../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/therubyracer-0.11.0beta1-x86-mingw32'
 else
   gem 'libv8'
   gem 'therubyracer', '0.11.0'

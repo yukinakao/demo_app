@@ -1,5 +1,5 @@
 PATH
-  remote: ../therubyracer-0.11.0beta1-x86-mingw32
+  remote: ../../Ruby21-x64/lib/ruby/gems/2.1.0/gems/therubyracer-0.11.0beta1-x86-mingw32
   specs:
     therubyracer (0.11.0beta1)
       ref
